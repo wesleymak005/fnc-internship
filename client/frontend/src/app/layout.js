@@ -22,27 +22,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-      
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+                  paddingBottom: "100px"
+                }}
       >
         {children}
-      <header className="flex fixed inset-x-0 top-0 border-b border-gray h-[150px] items-center justify-center gap-[150px] text-[30px]">
+      <header className="flex fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[150px] items-center justify-center gap-[150px] text-[30px]">
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/">Home</Link>
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/topics/hub">Topics</Link>
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/faq">About Us</Link>
         
       </header>
-            <footer className="flex fixed inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center">
-        About This Page (MISC)
-        <Image
-          className="dark:invert absolute right-10"
-          src="/message-text-outline.svg"
-          alt="message icon"
-          width={40}
-          height={40}
-          priority
-        />
-      </footer>
+        <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center">
+          About This Page (MISC)
+          <Image
+            className="dark:invert absolute right-10"
+            src="/message-text-outline.svg"
+            alt="message icon"
+            width={40}
+            height={40}
+            priority
+          />
+       </footer>
       </body>
       
     </html>
