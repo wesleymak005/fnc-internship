@@ -8,7 +8,7 @@ export default function Home() {
       <main className="flex gap-[32px] items-center">
         <div className="flex flex-col gap-[32px] max-w-[50%]">
           <div className="flex text-[50px]">
-            WIP
+            career
           </div>
 
           <div className="flex">
