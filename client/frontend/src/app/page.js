@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,12 +17,8 @@ export default function Home() {
           </div>
 
           <div className="flex gap-[32px]">
-            <button type="button" className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]">
-              Start Reading
-            </button>
-            <button type="button" className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]">
-              Browse FAQ
-            </button>
+            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]" href="/topics/hub">Start Reading</Link>
+            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]" href="/faq">Browse FAQ</Link>
           </div>
         </div>
         <div className="flex flex-col">
