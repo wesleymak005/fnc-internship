@@ -3,37 +3,73 @@ import Image from "next/image";
 export default function Home() {
   return (
     
-    <div className="font-sans flex flex col items-center justify-center min-h-screen ">
-      
-      <main className="flex gap-[32px] items-center">
-        <div className="flex flex-col gap-[32px] max-w-[50%]">
-          <div className="flex text-[50px]">
-            Future
+    <div className="font-Roboto font-bold flex flex col items-center justify-center min-h-screen ">
+      <main className="flex flex-col gap-[150px] items-center pt-[150px]">
+        <div className="flex flex-row">
+        <div className="flex justify-start flex-col ml-[20px] font-mono text-[90px]">
+          <p>The Future of AI</p> 
+          <p>in</p>
+          <p>Software Engineering.</p>
+          <div className="font-sans text-[30px] text-[#808080] mt-[50px]">An article on the future of the field, and how AI has already impacted it.</div>
+        </div>
+          <Image
+            src="/r46719.jpg"
+            alt="future"
+            width={1000}
+            height={1000}
+            priority
+          />
+        </div>
+        <div className="flex justify-between min-w-[100%]">
+          <div className="flex ml-[20px] bg-[#DCC5B2] h-[600] w-[900] rounded-[50px] p-[50px] text-[40px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
+              Quisque quis dui luctus quam maximus sollicitudin. 
+              Nullam vestibulum pharetra tellus quis vestibulum. 
+              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
           </div>
-
-          <div className="flex">
-            Information to help kick start your journey as a software engineer
-          </div>
-
-          <div className="flex gap-[32px]">
-            <button type="button" className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]">
-              Start Reading
-            </button>
-            <button type="button" className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]">
-              Browse FAQ
-            </button>
+            <Image
+              className="dark:invert"
+              src="/sign-caution.svg"
+              alt="wip"
+              width={600}
+              height={600}
+              priority
+            />
+        </div>
+        <div className="flex justify-end min-w-[100%]">
+            <Image
+              className="dark:invert -mr-[200px] z-1"
+              src="/sign-caution.svg"
+              alt="wip"
+              width={600}
+              height={600}
+              priority
+            />
+         <div className="flex ml-[20px] bg-[#D9A299] h-[600] w-[1500] pl-[250px] p-[50px] text-[40px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
+              Quisque quis dui luctus quam maximus sollicitudin. 
+              Nullam vestibulum pharetra tellus quis vestibulum. 
+              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
           </div>
         </div>
-        <div className="flex flex-col">
-          Placeholder for img
-           <Image
-          className="dark:invert"
-          src="/sign-caution.svg"
-          alt="wip"
-          width={100}
-          height={100}
-          priority
-        />
+        <div className="flex justify-between min-w-[100%]">
+          <div className="flex ml-[20px] h-[600] w-[900] rounded-[50px] p-[50px] text-[40px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
+              Quisque quis dui luctus quam maximus sollicitudin. 
+              Nullam vestibulum pharetra tellus quis vestibulum. 
+              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
+          </div>
+            <Image
+              className="dark:invert"
+              src="/sign-caution.svg"
+              alt="wip"
+              width={600}
+              height={600}
+              priority
+            />
         </div>
       </main>
     </div>
