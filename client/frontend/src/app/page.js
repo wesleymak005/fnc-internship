@@ -17,8 +17,8 @@ export default function Home() {
           </div>
 
           <div className="flex gap-[32px]">
-            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]" href="/topics/hub">Start Reading</Link>
-            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-[#808080] hover:rounded-[10px] rounded-[10px]" href="/faq">Browse FAQ</Link>
+            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-gray-100 hover:rounded-[10px] rounded-[10px]" href="/topics/hub">Start Reading</Link>
+            <Link className="bg-[#D3D3D3] p-[10px] border hover:bg-gray-100 hover:rounded-[10px] rounded-[10px]" href="/faq">Browse FAQ</Link>
           </div>
         </div>
         <div className="flex flex-col">
