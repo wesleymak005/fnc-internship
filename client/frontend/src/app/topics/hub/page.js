@@ -44,7 +44,7 @@ export default function Home() {
                   <div>In id fringilla neque.</div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
@@ -72,7 +72,7 @@ export default function Home() {
                   <div>In id fringilla neque.</div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
@@ -100,7 +100,7 @@ export default function Home() {
                   <div>In id fringilla neque.</div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/health">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/health">Learn More</Link>
             </div>
         </div>
         </div>
