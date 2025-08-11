@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div className="flex gap-[20px] max-w-[90%] justify-evenly">
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center" href="/topics/hub/future">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
                   src="/robot-outline.svg"
@@ -47,7 +47,7 @@ export default function Home() {
               <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center" href="/topics/hub/future">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
                   src="/tools.svg"
@@ -72,10 +72,10 @@ export default function Home() {
                   <div>In id fringilla neque.</div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-[#808080] font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center" href="/topics/hub/career">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
                   src="/plus-box.svg"
