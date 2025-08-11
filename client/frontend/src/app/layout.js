@@ -28,13 +28,13 @@ export default function RootLayout({ children }) {
                 }}
       >
         {children}
-      <header className="flex fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[150px] items-center justify-center gap-[150px] text-[30px]">
+      <header className="flex font-serif fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[150px] items-center justify-center gap-[150px] text-[30px] z-2">
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/">Home</Link>
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/topics/hub">Topics</Link>
         <Link className="hover:bg-[#808080] p-[50px] hover:rounded-[5px]" href="/faq">About Us</Link>
         
       </header>
-        <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center">
+        <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2">
           About This Page (MISC)
           <Image
             className="dark:invert absolute right-10"
