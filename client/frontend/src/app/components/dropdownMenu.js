@@ -10,12 +10,12 @@ export default function DropdownMenu() {
     <div className="relative inline-block">
       <button
         onClick={() => setOpen(!open)}
-        className="hover:bg-gray-100 p-[50px] hover:rounded-[5px]"
+        className="py-[25px] hover:bg-gray-100 px-[50px] hover:rounded-[5px]"
       >
-        Topics
+        Topics 
       </button>
       {open && (
-        <div className="absolute mt-2 w-[187.233px] rounded-md bg-white shadow-lg">
+        <div className="absolute top-full left-0 w-[187.233px] rounded-md bg-white shadow-lg">
           <button onClick={() => setOpen(!open)} className="w-[100%]">
               <Link className="block px-4 py-2 text-sm hover:bg-gray-100" href="/topics/hub">
                 All Topics

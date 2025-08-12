@@ -29,10 +29,10 @@ export default function RootLayout({ children }) {
                 }}
       >
         {children}
-      <header className="flex font-serif fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[150px] items-center justify-center gap-[150px] text-[30px] z-2">
-        <Link className="hover:bg-gray-100 p-[50px] hover:rounded-[5px]" href="/">Home</Link>
+      <header className="flex font-serif fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[100px] items-center justify-center gap-[150px] text-[30px] z-2">
+        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/">Home</Link>
         <DropdownMenu/>
-        <Link className="hover:bg-gray-100 p-[50px] hover:rounded-[5px]" href="/faq">About Us</Link>
+        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/faq">About Us</Link>
         
       </header>
         <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2">

@@ -1,75 +1,82 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     
-    <div className="font-Roboto font-bold flex flex col items-center justify-center min-h-screen ">
-      <main className="flex flex-col gap-[150px] items-center pt-[150px]">
-        <div className="flex flex-row">
-        <div className="flex justify-start flex-col ml-[20px] font-mono text-[90px]">
-          <p>The Importance</p> 
-          <p>of</p>
-          <p>Mental and Physical Health</p>
-          <div className="font-sans text-[30px] text-[#808080] mt-[50px]">A guide on how to stay healthy mentally and physically as a software engineer.</div>
-        </div>
-          <Image
-            src="/sign-caution.svg"
-            alt="future"
-            width={1000}
-            height={1000}
-            priority
-          />
-        </div>
-        <div className="flex justify-between min-w-[100%]">
-          <div className="flex ml-[20px] bg-[#DCC5B2] h-[600] w-[900] rounded-[50px] p-[50px] text-[40px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
-              Quisque quis dui luctus quam maximus sollicitudin. 
-              Nullam vestibulum pharetra tellus quis vestibulum. 
-              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
+    <div className="font-sans flex justify-center min-h-screen ">
+      
+      <main className="flex gap-[32px] mt-[10%] justify-center">
+        <div className="flex flex-col gap-[32px] items-center">
+          <div className="flex text-[50px] justify-center">
+            Start Reading!
           </div>
-            <Image
-              className="dark:invert"
-              src="/sign-caution.svg"
-              alt="wip"
-              width={600}
-              height={600}
-              priority
-            />
-        </div>
-        <div className="flex justify-end min-w-[100%]">
-            <Image
-              className="dark:invert -mr-[200px] z-1"
-              src="/sign-caution.svg"
-              alt="wip"
-              width={600}
-              height={600}
-              priority
-            />
-         <div className="flex ml-[20px] bg-[#D9A299] h-[600] w-[1500] pl-[250px] p-[50px] text-[40px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
-              Quisque quis dui luctus quam maximus sollicitudin. 
-              Nullam vestibulum pharetra tellus quis vestibulum. 
-              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
+
+          <div className="flex text-[20px] max-w-[50%] items-center">
+            We've compiled our research into three easily digestible categories. We'd like to present our research on the future of AI in the field, 
+            steps needed to break into the field, and how to stay healthy when working in this field.
           </div>
+          <div className="flex gap-[20px] max-w-[90%] justify-evenly">
+            <div className="flex flex-col gap-[20px]">
+              
+            </div>
+            <div className="flex flex-col gap-[20px]">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
+                <Image 
+                  className="dark:invert mb-[30px]"
+                  src="/tools.svg"
+                  alt="ai"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                Learning Skills and Employment
+                <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px]">
+                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                  <div>Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam. </div>
+                  <div>Quisque quis dui luctus quam maximus sollicitudin. </div>
+                  <div>Nullam vestibulum pharetra tellus quis vestibulum. </div> 
+                  <div>Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. </div>
+                  <li>a</li>
+                  <li>b</li>
+                  <li>c</li>
+                  <div>Pellentesque accumsan metus non tincidunt feugiat. </div>
+                  <div>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </div>
+                  <div>Etiam maximus purus at lorem tristique aliquam. </div>
+                  <div>In id fringilla neque.</div>
+                </div>
+              </div>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
+            </div>
+            <div className="flex flex-col gap-[20px]">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
+                <Image 
+                  className="dark:invert mb-[30px]"
+                  src="/plus-box.svg"
+                  alt="ai"
+                  width={100}
+                  height={100}
+                  priority
+                />
+                Staying Healthy as a Software Engineer
+                <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px]">
+                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                  <div>Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam. </div>
+                  <div>Quisque quis dui luctus quam maximus sollicitudin. </div>
+                  <div>Nullam vestibulum pharetra tellus quis vestibulum. </div> 
+                  <div>Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. </div>
+                  <li>a</li>
+                  <li>b</li>
+                  <li>c</li>
+                  <div>Pellentesque accumsan metus non tincidunt feugiat. </div>
+                  <div>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </div>
+                  <div>Etiam maximus purus at lorem tristique aliquam. </div>
+                  <div>In id fringilla neque.</div>
+                </div>
+              </div>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/health">Learn More</Link>
+            </div>
         </div>
-        <div className="flex justify-between min-w-[100%]">
-          <div className="flex ml-[20px] h-[600] w-[900] rounded-[50px] p-[50px] text-[40px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam.
-              Quisque quis dui luctus quam maximus sollicitudin. 
-              Nullam vestibulum pharetra tellus quis vestibulum. 
-              Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. 
-          </div>
-            <Image
-              className="dark:invert"
-              src="/sign-caution.svg"
-              alt="wip"
-              width={600}
-              height={600}
-              priority
-            />
         </div>
       </main>
     </div>
