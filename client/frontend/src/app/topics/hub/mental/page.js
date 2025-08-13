@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-//import { Image } from "next/image";
 
 export default function Home() {
   return (
@@ -9,9 +8,6 @@ export default function Home() {
         <main className="flex gap-[32px] mt-[10%] justify-center">
             Mental Health
         </main>
-
-        
-
     </div>
   );
 }
