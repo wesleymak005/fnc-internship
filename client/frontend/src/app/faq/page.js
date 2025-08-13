@@ -14,7 +14,7 @@ export default function Home() {
           <div className="flex text-[20px] max-w-[50%] items-center">
           Hello, and welcome to our website! We are undergraduate software engineering 
           students in the C2L-PHL program under the Federation of Neighborhood Centers, 
-          creating this site to share our research. Our goal is to support first- and second-year 
+          creating this site to share our research. Our goal is to support first and second-year 
           students in similar situations who may feel uncertain about their path. We aim to bridge 
           the gap between what’s taught in college and the realities of entering the workforce—covering 
           skills to learn, what companies seek in interns, and the health implications of a software 

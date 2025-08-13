@@ -22,13 +22,12 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col">
-          Placeholder for img
            <Image
           className="dark:invert"
-          src="/sign-caution.svg"
+          src="/se.png"
           alt="wip"
-          width={100}
-          height={100}
+          width={500}
+          height={500}
           priority
         />
         </div>
