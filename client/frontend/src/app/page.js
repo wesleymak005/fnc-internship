@@ -1,19 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from 'next/link'
 
 export default function Home() {
   return (
     
-    <div className="font-sans flex flex col items-center justify-center min-h-screen ">
+    <div className="flex flex col items-center justify-center min-h-screen ">
       
       <main className="flex gap-[10px] items-center justify-between w-full px-50">
         <div className="flex flex-col gap-[32px] max-w-[50%]">
-          <div className="flex text-[50px]">
+          <div className="font-mono flex text-[50px] font-bold">
             Guide to Software Engineering
           </div>
 
-          <div className="flex">
-            Information to help kick start your journey as a software engineer
+          <div className="flex text-[20px]">
+            Information to help kick start your journey as a software engineer. We are a group of students currently majoring in the field, and we'd like you to take you on the same journey we're on. We're here to help you learn the right skills, provide information on the current AI situation, and teach you how to stay healthy. Just click start reading to start your journey! 
           </div>
 
           <div className="flex gap-[32px]">
