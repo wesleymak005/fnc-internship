@@ -58,18 +58,17 @@ export default function Home() {
                 />
                 Learning Skills and Employment
                 <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px] h-[580px]">
-                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                  <div>Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam. </div>
-                  <div>Quisque quis dui luctus quam maximus sollicitudin. </div>
-                  <div>Nullam vestibulum pharetra tellus quis vestibulum. </div> 
-                  <div>Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. </div>
-                  <li>a</li>
-                  <li>b</li>
-                  <li>c</li>
-                  <div>Pellentesque accumsan metus non tincidunt feugiat. </div>
-                  <div>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </div>
-                  <div>Etiam maximus purus at lorem tristique aliquam. </div>
-                  <div>In id fringilla neque.</div>
+                  <div>In university, computer science and software engineering majors learn all about the world of 
+                    computers, machinery, and coding, in the hopes of hopefully landing a position as a software 
+                    engineer one day.
+                    </div>
+                    <div className="pt-[10px]">However, schools never teach the process to seeking a career in this field. That's what 
+                    this section is all about. </div>
+                  <div className="pt-[10px]">This section will cover many topics including:</div>
+                  <li>Applications</li>
+                  <li>Resumes</li>
+                  <li>Interviews</li>
+                  <div className="pt-[10px]">Despite what may seem like a long, arduous task, landing an internship/job opportunity in software engineering is not as impossible as it may seem. </div>
                 </div>
               </div>
               <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
