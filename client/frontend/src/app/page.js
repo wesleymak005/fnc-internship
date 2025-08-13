@@ -6,7 +6,7 @@ export default function Home() {
     
     <div className="font-sans flex flex col items-center justify-center min-h-screen ">
       
-      <main className="flex gap-[32px] items-center">
+      <main className="flex gap-[10px] items-center justify-between w-full px-50">
         <div className="flex flex-col gap-[32px] max-w-[50%]">
           <div className="flex text-[50px]">
             Guide to Software Engineering
