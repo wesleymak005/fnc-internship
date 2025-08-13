@@ -30,18 +30,19 @@ export default function Home() {
                 />
                 The Future of AI in Software Engineering
                 <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px]">
-                  <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-                  <div>Integer quis mauris malesuada, accumsan nunc consectetur, aliquam quam. </div>
-                  <div>Quisque quis dui luctus quam maximus sollicitudin. </div>
-                  <div>Nullam vestibulum pharetra tellus quis vestibulum. </div> 
-                  <div>Nullam lacinia turpis nisl, vitae rhoncus ex suscipit ac. </div>
-                  <li>a</li>
-                  <li>b</li>
-                  <li>c</li>
-                  <div>Pellentesque accumsan metus non tincidunt feugiat. </div>
-                  <div>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </div>
-                  <div>Etiam maximus purus at lorem tristique aliquam. </div>
-                  <div>In id fringilla neque.</div>
+                  <div>
+                    
+                    Software engineering has found itself in a tricky situation concerning AI. Some think it’s here to help, while many others believe it’s actively harming the market and the occupation.
+
+                  </div>
+                  <li className="pt-[10px]">The impact of AI in the field</li>
+                  <li>How AI will impact the field</li>
+                  <li>What the numbers say about the impact of AI</li>
+                  <div className="pt-[10px]">
+
+                    Many are questioning the viability of the field, especially now that many are investing in the field with AI. We’re here to answer those questions and objectively evaluate how valid criticisms of the market are.
+                  
+                  </div>
                 </div>
               </div>
               <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
