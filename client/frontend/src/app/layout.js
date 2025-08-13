@@ -35,9 +35,9 @@ export default function RootLayout({ children }) {
         <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/faq">About Us</Link>
         
       </header>
-        <Link className="" href="./faq">
+        <Link className="" href="/faq">
         <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2">
-          About This Page (MISC)
+          Contact Us!
           
        </footer>
        </Link>
