@@ -26,9 +26,9 @@ export default function Home() {
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
-                  src="/boy.png"
-                  alt="boy"
-                  width={100}
+                  src="/wesley.png"
+                  alt="wes"
+                  width={200}
                   height={100}
                   priority
                 />
@@ -42,9 +42,9 @@ export default function Home() {
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
-                  src="/boy.png"
-                  alt="boy"
-                  width={100}
+                  src="/max.jpg"
+                  alt="wes"
+                  width={200}
                   height={100}
                   priority
                 />
@@ -59,9 +59,9 @@ export default function Home() {
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
-                  src="/boy.png"
-                  alt="boy"
-                  width={100}
+                  src="/leo.jpg"
+                  alt="leo"
+                  width={200}
                   height={100}
                   priority
                 />
