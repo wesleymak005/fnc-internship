@@ -43,11 +43,7 @@ export default function Home() {
                 <Image 
                   className="dark:invert mb-[30px]"
                   src="/max.jpg"
-<<<<<<< HEAD
-                  alt="wes"
-=======
                   alt="max"
->>>>>>> 753837421a4f3af98415af527096fbf8699a6423
                   width={200}
                   height={100}
                   priority
@@ -63,11 +59,7 @@ export default function Home() {
               <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
                 <Image 
                   className="dark:invert mb-[30px]"
-<<<<<<< HEAD
                   src="/leo.jpg"
-=======
-                  src="/leo.JPG"
->>>>>>> 753837421a4f3af98415af527096fbf8699a6423
                   alt="leo"
                   width={200}
                   height={100}
