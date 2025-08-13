@@ -62,8 +62,8 @@ export default function Home() {
                     <div className="text-[18px]">For your mind: To maintain a healthy mind, you must prioritize 
                         yourself first. Be prepared to set boundaries, take mindful breaks, connect with others, 
                         and don’t be afraid to seek support. Engage in activities you enjoy outside of work, 
-                        practice mindfulness or meditation to manage your stress levels, and make time for hobbies 
-                        that help you feel refreshed and recharged.</div>
+                        practice mindfulness or meditation to manage your stress levels, and make time for quality sleep 
+                        and hobbies to help you feel refreshed and recharged.</div>
                 </div>
                 <div className="flex inline items-center w-[50%]">
                     <h1 className="font-bold text-[20px] py-[10px]">The Takeaway</h1>
