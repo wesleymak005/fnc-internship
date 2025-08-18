@@ -21,8 +21,8 @@ export default function Home() {
             classroom learning and real-world software engineering skills.</div>
 
           <div className="flex gap-[32px]">
-            <Link className="bg-[#F97316] p-[15px] border hover:bg-[#EA580C] hover:rounded-[10px] rounded-[10px] font-bold" href="/topics/hub">Start Reading</Link>
-            <Link className="bg-[#E5E7EB] p-[15px] border hover:bg-[#D1D5DB] hover:rounded-[10px] rounded-[10px] font-bold" href="/faq">Browse FAQ</Link>
+            <Link className="bg-[#F97316] p-[15px] hover:bg-[#EA580C] hover:rounded-[15px] rounded-[15px] font-bold" href="/topics/hub">Start Reading</Link>
+            <Link className="bg-[#E5E7EB] p-[15px] hover:bg-[#D1D5DB] hover:rounded-[15px] rounded-[15px] font-bold" href="/faq">Browse FAQ</Link>
           </div>
         </div>
         <div className="flex flex-col">
