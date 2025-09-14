@@ -3,6 +3,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from 'next/link'
 import DropdownMenu from "./components/dropdownMenu";
+import Chatbutton from "./components/chatbutton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,10 +36,16 @@ export default function RootLayout({ children }) {
         <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/faq">About Us</Link>
         
       </header>
+
+
+        <div>
+          <Chatbutton/> 
+        </div>
+
+
         <Link className="" href="/faq">
         <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2">
           Contact Us!
-          
        </footer>
        </Link>
       </body>
