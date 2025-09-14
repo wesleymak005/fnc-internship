@@ -36,18 +36,18 @@ export default function RootLayout({ children }) {
         <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/faq">About Us</Link>
         
       </header>
-
-
-        <div>
-          <Chatbutton/> 
-        </div>
-
-
-        <Link className="" href="/faq">
-        <footer className="flex fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2">
-          Contact Us!
+        <a href="https://docs.google.com/document/d/15ZW1UluVgql57vPTRPXs9-lYZsIXP50riRLGHbgKqEU/edit?usp=sharing">
+        <footer className="flex gap-[10px] fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2 ">
+          Sources
+          <Image
+          src="/document.svg"
+          alt="document"
+          width={25}
+          height={25}
+          />
+          
        </footer>
-       </Link>
+       </a>
       </body>
       
     </html>
