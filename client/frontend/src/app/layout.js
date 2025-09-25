@@ -30,15 +30,15 @@ export default function RootLayout({ children }) {
                 }}
       >
         {children}
-      <header className="flex font-serif fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[100px] items-center justify-center gap-[150px] text-[30px] z-2">
-        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/">Home</Link>
+      <header className="flex font-serif fixed bg-[#FFFFFF] inset-x-0 top-0 border-b border-gray h-[100px] items-center justify-center gap-[150px] text-[30px] z-2 dark:bg-gray-900 ">
+        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px] text-black dark:text-white hover:text-black" href="/">Home</Link>
         <DropdownMenu/>
-        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px]" href="/faq">About Us</Link>
+        <Link className="inline-flex items-center hover:bg-gray-100 px-[50px] hover:rounded-[5px] hover:h-[95px] text-black dark:text-white hover:text-black" href="/faq">About Us</Link>
         
       </header>
       <Chatbutton/>
         <a href="https://docs.google.com/document/d/15ZW1UluVgql57vPTRPXs9-lYZsIXP50riRLGHbgKqEU/edit?usp=sharing">
-        <footer className="flex gap-[10px] fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2 ">
+        <footer className="flex gap-[10px] fixed bg-[#FFFFFF] inset-x-0 bottom-0 border-t border-gray h-[75px] items-center justify-center z-2 dark:bg-gray-900">
           Sources
           <Image
           src="/document.svg"

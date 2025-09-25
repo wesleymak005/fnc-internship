@@ -44,7 +44,7 @@ export default function Chatbutton() {
     return (
         <div>
             {open && (
-                <div className="fixed bottom-35 right-7 flex h-[500px] w-[400px] shadow-lg rounded">
+                <div className="fixed bottom-35 right-7 flex h-[500px] w-[400px] shadow-lg rounded dark:text-black">
                     <div className="items-center w-full">
 
                         <div className="flex justify-evenly items-center bg-blue-100 w-full h-15 rounded-t">
@@ -68,7 +68,7 @@ export default function Chatbutton() {
                         </button>
                         </div>
                 
-                        <div className="w-full h-95 py-[15px] px-[15px] bg-white overflow-y-auto">
+                        <div className="w-full h-95 py-[15px] px-[15px] bg-white overflow-y-auto dark:bg-gray-500">
         
                             <div className="flex items-start gap-3">
 
@@ -80,7 +80,7 @@ export default function Chatbutton() {
                                 className="mt-1"
                             /> 
                             
-                                <div className="px-4 py-2 text-sm shadow bg-gray-100 rounded-[20px]">
+                                <div className="px-4 py-2 text-sm shadow bg-gray-100 rounded-[20px] dark:bg-gray-200">
                                     Hi, How can I help you today? </div>
                                 </div>                   
                                 
@@ -110,7 +110,7 @@ export default function Chatbutton() {
  
                         </div>
 
-                        <div className="flex items-center gap-2 p-3 border-t border-gray-200 bg-white rounded-b">
+                        <div className="flex items-center gap-2 p-3 border-t border-gray-200 dark:bg-gray-200 bg-white rounded-b">
                             <form onSubmit={handleSubmit} className="flex w-full ">
                             <input
                                 type="text"
@@ -118,7 +118,7 @@ export default function Chatbutton() {
                                 onChange={(e) => setPrompt(e.target.value)}
                                 placeholder="Type your message..."
                                 disabled={loading}
-                                className="flex-1 border rounded-full px-4 py-2 text-sm focus:outline-none border-gray-200"
+                                className="flex-1 border rounded-full px-4 py-2 text-sm focus:outline-none border-gray-200 dark:border-gray-700"
                             />
                             <button type="submit" 
                             disabled={loading} 

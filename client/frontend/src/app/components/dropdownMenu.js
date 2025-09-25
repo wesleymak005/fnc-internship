@@ -10,29 +10,29 @@ export default function DropdownMenu() {
     <div className="relative inline-block">
       <button
         onClick={() => setOpen(!open)}
-        className="py-[25px] hover:bg-gray-100 px-[50px] hover:rounded-[5px]"
+        className="py-[25px] hover:bg-gray-100 px-[50px] hover:rounded-[5px] dark:bg-gray-900 text-black dark:text-white hover:text-black"
       >
         Topics 
-      </button>
+      </button> 
       {open && (
-        <div className="absolute top-full left-0 w-[187.233px] rounded-md bg-white shadow-lg">
+        <div className="absolute top-full left-0 w-[187.233px] rounded-md bg-white dark:bg-gray-900 shadow-lg">
           <button onClick={() => setOpen(!open)} className="w-[100%]">
-              <Link className="block px-4 py-2 text-sm hover:bg-gray-100" href="/topics/hub">
+              <Link className="block px-4 py-2 text-sm hover:bg-gray-100 text-black dark:text-white hover:text-black" href="/topics/hub">
                 All Topics
               </Link>
             </button>
           <button onClick={() => setOpen(!open)} className="w-[100%]">
-              <Link className="block px-4 py-2 text-sm hover:bg-gray-100" href="/topics/hub/future">
+              <Link className="block px-4 py-2 text-sm hover:bg-gray-100 text-black dark:text-white hover:text-black" href="/topics/hub/future">
                 Future
               </Link>
             </button>
           <button onClick={() => setOpen(!open)} className="w-[100%]">
-              <Link className="block px-4 py-2 text-sm hover:bg-gray-100" href="/topics/hub/career">
+              <Link className="block px-4 py-2 text-sm hover:bg-gray-100 text-black dark:text-white hover:text-black" href="/topics/hub/career">
                 Career
               </Link>
             </button>
           <button onClick={() => setOpen(!open)} className="w-[100%]">
-              <Link className="block px-4 py-2 text-sm hover:bg-gray-100" href="/topics/hub/health">
+              <Link className="block px-4 py-2 text-sm hover:bg-gray-100 text-black dark:text-white hover:text-black" href="/topics/hub/health">
                 Health
               </Link>
             </button>

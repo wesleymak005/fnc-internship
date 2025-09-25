@@ -19,9 +19,9 @@ export default function Home() {
           </div>
           <div className="flex gap-[20px] max-w-[90%] justify-evenly">
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto dark:text-black">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className="mb-[30px]"
                   src="/robot-outline.svg"
                   alt="ai"
                   width={100}
@@ -29,7 +29,7 @@ export default function Home() {
                   priority
                 />
                 The Future of AI in Software Engineering
-                <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px]">
+                <div className="flex flex-col justify-start self-start border-t border-gray min-w-[90%] pt-[10px] text-[17px] dark:text-black">
                   <div>
                     
                     Software engineering has found itself in a tricky situation concerning AI. Some think it’s here to help, while many others believe it’s actively harming the market and the occupation.
@@ -45,12 +45,12 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/future">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px] dark:text-black" href="/topics/hub/future">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto dark:text-black">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className="mb-[30px]"
                   src="/tools.svg"
                   alt="ai"
                   width={100}
@@ -72,12 +72,12 @@ export default function Home() {
                   <div className="pt-[10px]">Despite what may seem like a long, arduous task, landing an internship/job opportunity in software engineering is not as impossible as it may seem. </div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/career">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px] dark:text-black" href="/topics/hub/career">Learn More</Link>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] w-[400px] h-[700px] justify-start items-center overflow-y-auto dark:text-black">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className="mb-[30px]"
                   src="/plus-box.svg"
                   alt="ai"
                   width={100}
@@ -98,7 +98,7 @@ export default function Home() {
                   <div className="pt-[10px]">Focusing on wellness helps you build resilience, manage stress more effectively, and maintain a balance between work and life. With the right habits, you can approach your software engineering journey with energy, confidence, and a clearer sense of direction</div>
                 </div>
               </div>
-              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px]" href="/topics/hub/health">Learn More</Link>
+              <Link className="flex justify-center bg-[#F0E4D3] hover:bg-gray-100 font-bold text-[30px] p-[50px] rounded-[15px] hover:rounded-[15px] dark:text-black" href="/topics/hub/health">Learn More</Link>
             </div>
         </div>
         </div>

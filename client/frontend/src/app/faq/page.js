@@ -35,9 +35,9 @@ export default function Home() {
                   The Team Behind
                   <div>  The screen</div>
                 </div>
-                <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] mr-[50px] p-[50px] min-w-[33%] justify-center items-center">
+                <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] mr-[50px] p-[50px] min-w-[33%] justify-center items-center dark:text-black">
                   <Image 
-                    className="dark:invert mb-[30px]"
+                    className=""
                     src="/wesley.png"
                     alt="wes"
                     width={300}
@@ -54,9 +54,9 @@ export default function Home() {
 
             <div className="flex flex-col gap-[20px]">
             <div>
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center dark:text-black">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className=""
                   src="/max.png"
                   alt="max"
                   width={300}
@@ -71,9 +71,9 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center">
+              <div className="flex flex-col text-[20px] rounded-[15px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center dark:text-black">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className=""
                   src="/leo.png"
                   alt="leo"
                   width={300}

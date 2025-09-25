@@ -20,9 +20,9 @@ export default function Home() {
               
             </div>
             <div className="flex flex-col gap-[20px]">
-              <Link className="flex flex-col text-[20px] hover:bg-gray-100 rounded-[50px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center" href="/topics/hub/mental">
+              <Link className="flex flex-col text-[20px] hover:bg-gray-100 rounded-[50px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center dark:text-black" href="/topics/hub/mental">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className="mb-[30px]"
                   src="/mind.svg"
                   alt="brain"
                   width={100}
@@ -34,9 +34,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="flex flex-col gap-[20px]">
-              <Link className="flex flex-col text-[20px] hover:bg-gray-100 rounded-[50px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center" href="/topics/hub/physical">
+              <Link className="flex flex-col text-[20px] hover:bg-gray-100 rounded-[50px] bg-[#FAF7F3] p-[50px] min-w-[33%] justify-center items-center dark:text-black" href="/topics/hub/physical">
                 <Image 
-                  className="dark:invert mb-[30px]"
+                  className="mb-[30px]"
                   src="/muscle.svg"
                   alt="muscle"
                   width={100}
